@@ -33,7 +33,7 @@
   font-family: "Roboto", sans-serif;
   text-transform: uppercase;
   outline: 0;
-  background: #4CAF50;
+  background: #948B3E;
   width: 100%;
   border: 0;
   padding: 15px;
@@ -44,7 +44,7 @@
   cursor: pointer;
 }
 .form button:hover,.form button:active,.form button:focus {
-  background: #43A047;
+  background: #80783c;
 }
 .form .message {
   margin: 15px 0 0;
@@ -52,7 +52,7 @@
   font-size: 12px;
 }
 .form .message a {
-  color: #4CAF50;
+  color: #948B3E;
   text-decoration: none;
 }
 .form .register-form {
@@ -92,14 +92,16 @@
   color: #EF3B3A;
 }
 body {
-  background: #000; /* fallback for old browsers */
+background:url(https://i.imgur.com/fl0fmJh.jpg) no-repeat;
+background-size: cover;
+background-attachment:fixed;
  /* background: -webkit-linear-gradient(right, #76b852, #8DC26F);
   background: -moz-linear-gradient(right, #76b852, #8DC26F);
   background: -o-linear-gradient(right, #76b852, #8DC26F);
   background: linear-gradient(to left, #76b852, #8DC26F);*/
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;      
+  -moz-osx-font-smoothing: grayscale;
 }
 
 
@@ -114,11 +116,10 @@ $('.message a').click(function(){
 </script>
 
 
-
-
 <div class="login-page">
   <div class="form">
     <form class="register-form">
+
       <input type="text" placeholder="name"/>
       <input type="password" placeholder="password"/>
       <input type="text" placeholder="email address"/>
@@ -129,7 +130,7 @@ $('.message a').click(function(){
       <input type="text" placeholder="username"/>
       <input type="password" placeholder="password"/>
       <button>login</button>
-      <p class="message">Not registered? <a href="#">Create an account</a></p>
+      <p class="message">Not registered? <a href="/registration.html">Create an account</a></p>
     </form>
   </div>
 </div>
